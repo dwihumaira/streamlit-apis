@@ -1,0 +1,7 @@
+streamlit
+tensorflow=2.19.0
+Pillow
+matplotlib
+scikit-learn
+seaborn
+split-folders
