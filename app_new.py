@@ -94,7 +94,7 @@ st.title("Deteksi Penyakit Tanaman Tomat")
 uploaded_file = st.file_uploader("Unggah gambar daun tomat", type=["jpg", "jpeg", "png"])
 
 # Memuat model
-model_path = "models/model_resnet50_tomat22.h5"  
+model_path = "streamlit-apis/model_resnet50_tomat22.h5"  
 model = load_model(model_path)
 
 if uploaded_file is not None and model is not None:
